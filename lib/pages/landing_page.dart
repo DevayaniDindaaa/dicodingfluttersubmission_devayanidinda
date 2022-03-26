@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:submissiondevayanidinda/pages/foodbeverage_page.dart';
-import 'package:submissiondevayanidinda/pages/signature_page.dart';
+import 'package:submissiondevayanidinda/pages/signature/signature_page.dart';
 import 'package:submissiondevayanidinda/utils/urlpage_launcher.dart';
 import 'package:submissiondevayanidinda/utils/webview_page.dart';
 import 'package:maps_launcher/maps_launcher.dart';

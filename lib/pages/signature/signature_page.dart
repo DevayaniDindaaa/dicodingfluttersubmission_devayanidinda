@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:submissiondevayanidinda/models/signature_list.dart';
-import 'package:submissiondevayanidinda/pages/signaturedetails_page.dart';
+import 'package:submissiondevayanidinda/pages/signature/signaturedetails_page.dart';
 
 class SignaturePage extends StatelessWidget {
-  const SignaturePage({Key? key}) : super(key: key);
+  SignaturePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +18,12 @@ class SignaturePage extends StatelessWidget {
               fontFamily: 'Gochi_Hand',
           ),
         ),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: () {},
+          )
+        ],
       ),
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constraints) {
@@ -110,3 +116,4 @@ class SignaturePageGrid extends StatelessWidget {
     );
   }
 }
+

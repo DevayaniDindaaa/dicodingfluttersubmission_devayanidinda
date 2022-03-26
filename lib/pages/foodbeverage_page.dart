@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:submissiondevayanidinda/models/signature_list.dart';
+import 'package:submissiondevayanidinda/pages/beverage/beverage_page.dart';
+import 'package:submissiondevayanidinda/pages/food/food_page.dart';
 
 class FoodBeveragePage extends StatelessWidget {
   const FoodBeveragePage({Key? key}) : super(key: key);
@@ -46,9 +47,9 @@ class FoodBeveragePageGrid extends StatelessWidget {
           children: [
             InkWell(
               onTap: () {
-                  // Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  //   return DetailScreen(place: place);
-                  // }));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return FoodPage();
+                  }));
                 },
               child: Card(
                 color: Colors.blueGrey,
@@ -86,9 +87,9 @@ class FoodBeveragePageGrid extends StatelessWidget {
             ),
             InkWell(
               onTap: () {
-                // Navigator.push(context, MaterialPageRoute(builder: (context) {
-                //   return DetailScreen(place: place);
-                // }));
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return BeveragePage();
+                }));
               },
               child: Card(
                 color: Colors.blueGrey,
