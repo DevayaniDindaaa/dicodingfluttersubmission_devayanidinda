@@ -1,6 +1,4 @@
-# submissiondevayanidinda
-
-A new Flutter project.
+# Restaurant Menu App Build with Flutter Framework
 
 ## Getting Started
 
